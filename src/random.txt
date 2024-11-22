@@ -1,0 +1,22 @@
+ {/* <div className="carrousel">
+              <div>
+                <img src="https://qualitycorn.com/wp-content/uploads/2024/11/engin-akyurt-CwO8qW_GFPE-unsplash-6-1-png.webp"></img>
+                <h2>Secado</h2>
+              </div>
+              <div>
+                <img src="https://qualitycorn.com/wp-content/uploads/2024/11/engin-akyurt-CwO8qW_GFPE-unsplash-6-1-png.webp"></img>
+                <h2>Secado</h2>
+              </div>
+              <div>
+                <img src="https://qualitycorn.com/wp-content/uploads/2024/11/engin-akyurt-CwO8qW_GFPE-unsplash-6-1-png.webp"></img>
+                <h2>Secado</h2>
+              </div>
+              <div>
+                <img src="https://qualitycorn.com/wp-content/uploads/2024/11/engin-akyurt-CwO8qW_GFPE-unsplash-6-1-png.webp"></img>
+                <h2>Secado</h2>
+              </div>
+              <div>
+                <img src="https://qualitycorn.com/wp-content/uploads/2024/11/engin-akyurt-CwO8qW_GFPE-unsplash-6-1-png.webp"></img>
+                <h2>Secado</h2>
+              </div>
+            </div> */}

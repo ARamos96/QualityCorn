@@ -1,0 +1,544 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 17px;
+}
+
+.body p {
+  line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .drawer {
+    width: 100vw;
+  }
+  .header-container {
+    background-image: url("https://qualitycorn.com/wp-content/uploads/2024/11/Frame-148-png.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: inherit !important;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: white !important;
+    text-transform: uppercase;
+  }
+
+  .header-container h1 {
+    padding: 0px 50px;
+  }
+
+  .almacenamos-container {
+    padding: 140px 0px 140px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    width: inherit !important;
+  }
+
+  .almacenamos-text-container {
+    width: 21.5%;
+  }
+
+  .almacenamos-text-container h2 {
+    font-size: 3em;
+  }
+
+  .almacenamos-text-container p {
+    font-size: 1.2em;
+  }
+
+  .instalaciones-container {
+    background-image: url(https://qualitycorn.com/wp-content/uploads/2024/10/QUALITY-CORN-GRAIN-2-jpg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    color: beige !important;
+    text-align: right;
+  }
+
+  .instalaciones-inner-container {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .instalaciones-container h2 {
+    font-size: 2.6em;
+  }
+
+  .empty-container {
+    width: 30%;
+  }
+
+  .instalaciones-text-container {
+    padding-top: 70px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 35%;
+  }
+
+  .instalaciones-text-container p {
+    font-size: 1.2em;
+    text-align: right;
+  }
+
+  .variedades-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin: 0px 370px; */
+    padding: 140px 0px;
+  }
+
+  .variedades-text-container {
+    width: 45%;
+  }
+
+  .variedades-text-container h2 {
+    font-size: 2.6em;
+    font-weight: 500;
+  }
+
+  .variedades-text-container p {
+    font-size: 1.2em;
+  }
+
+  .procesado-container {
+    width: 100%;
+    background-color: #f6f1e7;
+  }
+
+  .procesado-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* margin: 0px 290px; */
+    padding: 70px 0px;
+    text-align: center;
+  }
+
+  .procesado-text-container h2 {
+    font-size: 2.6em;
+  }
+
+  .procesado-text-container p {
+    font-size: 1.2em;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  /* .card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+  } */
+  .carousel-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card h2 {
+    font-size: 1.2em;
+  }
+
+  .card p {
+    font-size: 0.9em;
+  }
+
+  .custom-carousel img {
+    height: 250px;
+    width: 275px;
+  }
+
+  /* .carousel-card {
+    width: 30vw;
+    margin: 0px;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 1027px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .drawer {
+    width: 100vw;
+  }
+  .header-container {
+    background-image: url("https://qualitycorn.com/wp-content/uploads/2024/11/Frame-148-png.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: inherit !important;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* font-size: 68px; */
+    color: white !important;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+
+  .header-container h1 {
+    padding: 0px 20px;
+    margin: 0;
+    font-size: 4em;
+  }
+
+  .almacenamos-container {
+    padding: 80px 20px 80px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+  }
+
+  .almacenamos-text-container {
+    width: 40%;
+  }
+
+  .almacenamos-text-container h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+  .almacenamos-text-container p {
+    font-size: 1.1em;
+  }
+
+  .almacenamos-container img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .instalaciones-container {
+    background-image: url(https://qualitycorn.com/wp-content/uploads/2024/10/QUALITY-CORN-GRAIN-2-jpg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    color: beige !important;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .instalaciones-inner-container {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .instalaciones-container h2 {
+    font-size: 2.3em;
+  }
+
+  .empty-container {
+    display: none;
+  }
+
+  .instalaciones-text-container {
+    padding-top: 70px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 70%;
+  }
+
+  .instalaciones-text-container p {
+    font-size: 1.2em;
+    text-align: right;
+  }
+
+  .variedades-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 0px 370px; */
+    padding: 80px 20px;
+  }
+
+  .variedades-text-container {
+    width: 50%;
+  }
+
+  .variedades-text-container h2 {
+    font-size: 2.3em;
+    font-weight: 500;
+  }
+
+  .variedades-text-container p {
+    font-size: 1.1em;
+  }
+
+  .variedades-img-container {
+    width: 45%;
+  }
+
+  .variedades-img-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .procesado-container {
+    width: 100%;
+    background-color: #f6f1e7;
+  }
+
+  .procesado-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* margin: 0px 290px; */
+    padding: 70px 0px;
+    text-align: center;
+  }
+
+  .procesado-text-container h2 {
+    font-size: 2.6em;
+  }
+
+  .procesado-text-container p {
+    font-size: 1.2em;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+  }
+
+  .card h2 {
+    font-size: 1.2em;
+  }
+
+  .card p {
+    font-size: 0.9em;
+  }
+
+  .custom-carousel img {
+    height: 250px;
+    width: 275px;
+  }
+
+  /* .carousel-card {
+    width: 30vw;
+    margin: 0px;
+  } */
+}
+
+@media (max-width: 767px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 17px;
+  }
+  .drawer {
+    width: 100vw;
+  }
+  .header-container {
+    background-image: url("https://qualitycorn.com/wp-content/uploads/2024/11/Frame-148-png.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: inherit !important;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* font-size: 2.4em; */
+    color: white !important;
+    text-transform: uppercase;
+  }
+
+  .header-container h1 {
+    /* padding: 0px 50px; */
+    font-size: 2.4em;
+    margin: 0px;
+  }
+
+  .almacenamos-container {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 99%;
+  }
+
+  .almacenamos-text-container {
+    max-width: 99%;
+  }
+
+  .almacenamos-text-container h2 {
+    font-size: 2.4em;
+  }
+
+  .almacenamos-text-container p {
+    font-size: 1.2em;
+  }
+
+  .almacenamos-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .instalaciones-container {
+    background-image: url(https://qualitycorn.com/wp-content/uploads/2024/10/QUALITY-CORN-GRAIN-2-jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: beige !important;
+    text-align: right;
+    /* padding: 0px 20px; */
+  }
+
+  .instalaciones-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .instalaciones-container h2 {
+    font-size: 2em;
+  }
+
+  .empty-container {
+    display: none;
+    width: 30%;
+  }
+
+  .instalaciones-text-container {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .instalaciones-text-container p {
+    font-size: 1.1em;
+  }
+
+  .variedades-de-maiz-container {
+    padding: 20px 0px;
+  }
+
+  .variedades-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0px 370px; */
+    padding: 80px 0px;
+  }
+
+  .variedades-text-container {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .variedades-text-container h2 {
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  .variedades-text-container p {
+    font-size: 1.1em;
+  }
+
+  .variedades-img-container {
+    padding: 0px 20px;
+  }
+
+  .variedades-img-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .procesado-container {
+    width: 100%;
+    background-color: #f6f1e7;
+  }
+
+  .procesado-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* margin: 0px 290px; */
+    padding: 70px 0px;
+    text-align: center;
+  }
+
+  .procesado-text-container h2 {
+    font-size: 2.6em;
+  }
+
+  .procesado-text-container p {
+    font-size: 1.2em;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+  }
+
+  .card h2 {
+    font-size: 1.2em;
+  }
+
+  .card p {
+    font-size: 0.9em;
+  }
+
+  .custom-carousel img {
+    height: 250px;
+    width: 275px;
+  }
+}

@@ -1,0 +1,91 @@
+/* Navbar.css */
+@media (min-width: 768px) { 
+  .navbar-container {
+    position: fixed;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    border: none;
+    background-color: transparent transparent;
+    padding: 20px 0px;
+  }
+
+  .navbar-scrolled {
+    background-color: rgb(170, 141, 50);
+  }
+  
+  .p-menuitem-text {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+
+  .p-menubar {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .p-menubar-start {
+    padding-left: 60px;
+  }
+
+  .p-menubar-end {
+    margin: 0;
+    width: 5vw;
+    padding-right: 180px;
+  }
+}  
+
+@media (max-width: 767.5px) { 
+  .navbar-container {
+    position: fixed;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    border: none;
+    background-color: transparent transparent;
+    padding: 20px 0px;
+  }
+
+  .mr-2 {
+    height: 50px;
+  }
+
+  .navbar-scrolled {
+    background-color: rgb(170, 141, 50);
+  }
+  
+  .p-menuitem-text {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+
+  .p-menubar {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .p-menubar-start {
+    padding-left: 10px;
+  }
+
+  .p-menubar-end {
+    margin: 0;
+    width: 2vw;
+    padding-right: 90px;
+  }
+}  
