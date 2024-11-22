@@ -1,4 +1,4 @@
-# React + Vite
+# BIgBangTech
 
 Quality Corn replica task
 
